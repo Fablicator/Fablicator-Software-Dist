@@ -1,0 +1,3 @@
+Settings Version 1.6.3
+
+This update will leave the previous version of KISSlicer in the Fablicator backup folder in case it must be reversed.
