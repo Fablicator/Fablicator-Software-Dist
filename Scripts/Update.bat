@@ -1,2 +1,2 @@
 cd ..
-powershell -noexit -executionpolicy remotesigned -file ./Scripts/ps/fetchscript.ps1
+powershell -executionpolicy remotesigned -file ./Scripts/ps/fullupdate.ps1
