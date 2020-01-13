@@ -12,7 +12,7 @@ $commitcount = (git log $branch..origin/$branch --oneline | Measure-Object).Coun
 
 if($commitcount -eq 0) {
     Clear-Host
-    "No update available..."
+    # "No update available..."
     powershell -window normal -command "" > $null
     pause
     exit
@@ -37,5 +37,3 @@ git pull origin $branch
 git reset --hard origin/$branch
 
 Clear-Host
-"Update complete!"
-pause
