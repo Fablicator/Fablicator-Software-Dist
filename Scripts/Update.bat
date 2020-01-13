@@ -1,2 +1,2 @@
 cd ..
-powershell -noexit -executionpolicy remotesigned -file ./Scripts/fetchscript.ps1
+powershell -noexit -executionpolicy remotesigned -file ./Scripts/ps/fetchscript.ps1
