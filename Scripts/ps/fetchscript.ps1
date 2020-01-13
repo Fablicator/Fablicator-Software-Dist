@@ -1,4 +1,4 @@
-$branch = "kisslicer-mx"
+$branch = "kisslicer-sx"
 # $docsdir = [Environment]::GetFolderPath('MyDocuments')
 
 Clear-Host

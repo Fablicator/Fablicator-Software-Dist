@@ -1,2 +1,2 @@
 cd ..
-git reset --hard origin/kisslicer-mx
+git reset --hard origin/kisslicer-sx
