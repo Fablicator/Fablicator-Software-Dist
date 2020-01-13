@@ -1,1 +1,1 @@
-powershell -executionpolicy remotesigned -file fetchscript.ps1
+powershell -noexit -executionpolicy remotesigned -file fetchscript.ps1
