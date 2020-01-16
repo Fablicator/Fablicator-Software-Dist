@@ -14,7 +14,7 @@ if($commitcount -eq 0) {
     Clear-Host
     # "No update available..."
     powershell -window normal -command "" > $null
-    pause
+    # pause
     exit
 }else{
     Clear-Host
