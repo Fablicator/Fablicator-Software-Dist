@@ -1,2 +1,2 @@
 cd ..
-powershell -executionpolicy remotesigned -file ./Scripts/ps/fullupdate.ps1
+powershell -executionpolicy bypass -file ./Scripts/ps/fullupdate.ps1
