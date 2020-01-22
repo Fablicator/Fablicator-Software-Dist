@@ -1,1 +1,1 @@
-powershell -executionpolicy remotesigned -file ./ps/setupfm1.ps1
+powershell -executionpolicy bypass -file ./ps/setupfm1.ps1

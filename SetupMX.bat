@@ -1,1 +1,1 @@
-powershell -executionpolicy remotesigned -file ./ps/setupmx.ps1
+powershell -executionpolicy bypass -file ./ps/setupmx.ps1
