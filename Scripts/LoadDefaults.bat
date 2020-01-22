@@ -1,1 +1,1 @@
-powershell -executionpolicy remotesigned -file ./ps/loaddefaults.ps1
+powershell -executionpolicy bypass -file ./ps/loaddefaults.ps1
