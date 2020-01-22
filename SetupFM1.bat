@@ -1,0 +1,1 @@
+powershell -executionpolicy remotesigned -file ./ps/setupfm1.ps1
