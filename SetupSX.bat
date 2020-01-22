@@ -1,0 +1,1 @@
+powershell -executionpolicy remotesigned -file ./ps/setupsx.ps1
