@@ -3,8 +3,8 @@ $branch = "kisslicer-mx"
 
 Clear-Host
 
-"Fetching updates in the background..."
-powershell -window minimized -command "" > $null
+# "Fetching updates in the background..."
+# powershell -window minimized -command "" > $null
 
 git fetch
 
@@ -13,13 +13,13 @@ $commitcount = (git log $branch..origin/$branch --oneline | Measure-Object).Coun
 if($commitcount -eq 0) {
     Clear-Host
     "No update available..."
-    powershell -window normal -command "" > $null
+    # powershell -window normal -command "" > $null
     pause
     exit
 }else{
     Clear-Host
     
-    powershell -window normal -command "" > $null
+    # powershell -window normal -command "" > $null
 
     "The following updates are available:"
     git log $branch..origin/$branch --oneline
