@@ -1,6 +1,6 @@
 ﻿# KISSlicer64.exe
 # *.noupdate
-# /_materials
-# /_printers
-# /_styles
-# /_supports
+/_materials
+/_printers
+/_styles
+/_supports
