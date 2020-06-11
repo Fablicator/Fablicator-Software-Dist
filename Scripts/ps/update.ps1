@@ -24,7 +24,7 @@ if($commitcount -eq 0) {
     Write-Host "Update KISSlicer?"
     Write-Host ""
     Write-Host "'y' - Update KISSlicer"
-    Write-Host "'n' - Update KISSlicer"
+    Write-Host "'n' - Don't update KISSlicer"
 
     do {
         $shouldupdate = Read-Host "Enter your choice"
