@@ -1,4 +1,4 @@
-$branch = "kisslicer-mx"
+$branch = (git rev-parse --abbrev-ref HEAD)
 
 Clear-Host
 
