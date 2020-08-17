@@ -24,10 +24,13 @@ def set_extruder_temperature(proxy, extruder, temperature):
 with xmlrpc.client.ServerProxy("http://localhost:%s/" % PORT) as proxy:
     # Set extruder temperature
     set_extruder_temperature(proxy, 1, 100)
+    # Wait for temperature to reach 100 C
     while True:
         printer_status = proxy.status()
-        print(printer_status)
+        # Print the current temperature of the right extruder ( ex. "T1 @ 40 C" )
+        print("T1 @ %s C" % printer_status["temps"]["T1"][0])
         right_ext_temp = float(printer_status["temps"]["T1"][0])
+        # Break loop when the temperature is reached
         if right_ext_temp >= 100:
             print("Reached temperature!")
             break
