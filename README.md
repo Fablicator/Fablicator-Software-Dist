@@ -1,3 +1,3 @@
-# KISSlicer (MX Profiles)
+# KISSlicer (FM-1 Profiles)
 
-Contains profiles for the MX and download/install scripts for KISSlicer.
+Contains profiles for the FM-1 and download/install scripts for KISSlicer.
